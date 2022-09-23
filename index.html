@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/src/output.css" rel="stylesheet">
+    <title>Santai Aja Lagi - Test Web</title>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body class="font-body">
+    <!-- HEADER/MENU START -->
+
+    <nav class="py-5 px-8 lg:px-24 bg-white shadow md:flex md:items-center md:justify-between">
+        <div class="flex justify-between items-center ">
+          <span class="text-2xl font-bold cursor-pointer">
+            Santai Aja Lagi
+          </span>
+    
+          <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+            <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+          </span>
+        </div>
+    
+        <ul class="md:flex md:items-center md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#about" class="text-xl hover:text-green-700 duration-500">Tentang Kita</a>
+          </li>
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#caramain" class="text-xl hover:text-green-700 duration-500">Cara Main</a>
+          </li>
+    
+          <button class="bg-green-700 text-white duration-500 px-6 py-2 mx-4 hover:bg-green-800 rounded-full ">
+            Beli Game
+          </button>
+    <!-- <h2 class=""></h2> -->
+        </ul>
+      </nav>
+
+    <!-- HEADER/MENU END -->
+
+    <!-- HERO START -->
+    <section id="hero" class="py-10 lg:py-40 min-h-min flex items-center justify-center bg-gray-200">
+        <div class="grid max-w-screen-lg px-2 py-8 mx-auto lg:gap-10 md:pt-16 pb-8 md:grid-cols-12">
+            <div class="mx-auto place-self-center md:col-span-7">
+                <p class="max-w-2xl text-gray-700 font-semibold md:text-lg">Bukan buat orang baperan.</p>
+                <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl ">Santai Aja Lagi</h1>
+                <p class="max-w-2xl mb-3 text-gray-700 lg:mb-2 md:text-lg">Party game nomor 1 di Indonesia*.
+                    <br>
+                    Tidak aman dimainin bareng mantan.</p>
+                
+                <p class="max-w-2xl mb-2 text-gray-700 lg:mb-8 text-xs">
+                    *Data menurut kita sendiri.
+                </p>
+                
+                <a href="#" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-green-700 rounded-lg hover:bg-green-800 transition duration-300 ease-in-out lg:text-xl max-w-2xl">
+                    Beli Sekarang
+                </a> 
+            </div>
+      
+            <div class="mt-5 mr-auto place-self-center md:col-span-4 2xl: col-span-4 flex md:mt-0 md:ml-7">
+                <img src="./src/logo.png" class="lg:scale-150">
+            </div>
+        </div>        
+    </section>
+    <!-- HERO END -->
+
+    <!-- TENTANG KAMI START -->
+    <section id="about" class="bg-green-700 justify-center items-center px-20 py-20">
+        
+            <div class="mx-auto max-w-screen-xl text-justify">
+                <p class="text-white text-lg lg:text-2xl">
+                <b>Apa itu Santai Aja Lagi?</b>                
+                Cards Against Humanity versi warga +62? Game kartu buat yang suka berantem? Bahan baru buat yang suka konten problematik? Bisa jadi.
+                </p>
+                <br>
+                <p class="text-white text-lg lg:text-2xl">
+                    <b>Santai Aja Lagi </b>                
+                    adalah game kartu dimana kamu bisa mengeluarkan kemampuanmu mencari humor di tempat dan situasi yang belum tentu lucu sambil santai aja, lagi
+                    </p>
+            </div>
+    </section>
+<!-- TENTANG KAMI END -->
+
+<!-- CARA MAIN START -->
+    <section id="caramain" class="min-h-min pt-10 py-2 bg-gray-200">
+
+        <div class="grid gap-8 mb-6 max-w-screen-lg mx-auto py-8 px-4">
+            <h1 class="text-3xl font-bold lg:text-4xl"> Cara Main</h1>
+            <div class="items-center border-2 border-green-700 border-solid rounded-lg shadow sm:flex">
+                
+                <div class="p-5 text-justify">
+                    <h3 class="text-xl font-bold tracking-tight text-gray-900 lg:text-3xl">
+                       Langkah 1
+                    </h3>
+                    <p class="mt-3 mb-4 text-gray-700 lg:text-lg">Yang jomblo paling lama menjadi bandar dan memulai game dengan mengambil 1 kartu hijau.</p>
+                   
+                </div>
+
+                <img class="w-full md:w-1/3 p-3 mx-auto rounded-lg sm:rounded-none sm:rounded-l-lg" src="src/caramain1.png" alt="CaraMainSAL1">
+            </div> 
+
+            <div class="items-center border-2 border-green-700 border-solid rounded-lg shadow sm:flex">
+                
+                <div class="p-5 text-justify">
+                    <h3 class="text-xl font-bold tracking-tight text-gray-900 lg:text-3xl">
+                       Langkah 2
+                    </h3>
+                    <p class="mt-3 mb-4 text-gray-700 lg:text-lg">Semua pemain lainnya memilih kartu putih terlucu untuk mengisi kartu hijau dan mengumpulkan ke bandar.</p>
+                </div>
+
+                <img class="w-full md:w-1/3 mx-auto p-3 rounded-lg sm:rounded-none sm:rounded-l-lg" src="src/caramain2.png" alt="CaraMainSAL2">
+            </div> 
+
+            <div class="items-center border-2 border-green-700 border-solid rounded-lg shadow sm:flex">
+                
+                <div class="p-5 text-justify">
+                    <h3 class="text-xl font-bold tracking-tight text-gray-900 lg:text-3xl">
+                       Langkah 3
+                    </h3>
+                    <p class="mt-3 mb-4 text-gray-700 lg:text-lg">Bandar memilih kartu yang paling lucu atau paling garing, boleh tertawa atau tidak, banyak versi mainnya tauk ah capek jelasin panjang lebar di sini baca sendiri aja di rulebooknya nanti kalau sudah dapat kotak gamenya.</p>
+                </div>
+
+                <img class="w-full md:w-1/3 mx-auto p-3 rounded-lg sm:rounded-none sm:rounded-l-lg" src="src/caramain3.png" alt="CaraMainSAL3">
+            </div> 
+            <span class="mx-auto max-w-sm items-center justify-center
+            text-center">
+                <h2 class="text-xl font-medium lg:text-2xl">Ketawa jangan sendiri dong.</h2>
+                <h2>Jangan lupa tag kita di permainan kalian.</h2>
+
+                <div class="flex mt-5 space-x-4 justify-center items-center">
+                    <span>
+                        <!-- FACEBOOK -->
+                        <a href="#" class="text-green-700 hover:text-green-800">
+                            <svg role="img" width="50" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                    </span>
+                    
+                    <!-- INSTAGRAM -->
+                    <span>
+                        <a href="#" class="text-green-700 hover:text-green-800">
+                            <svg role="img" width="50" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
+                        </a>  
+                    </span>
+                    
+                    <!-- TWITTER -->
+                    <span>
+                        <a href="#" class="text-green-700 hover:text-green-800">
+                            <svg role="img" width="50" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Twitter</title><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
+                        </a>
+                    </span>
+                </div>
+            </span>
+        </div>
+    </section>
+<!-- CARA MAIN END -->
+
+<!-- CTA START -->
+<section id="CTA" class="min-h-min px-4 py-10 mx-auto bg-gray-200 items-center justify-center md:flex">
+
+<div class="pr-5">
+<img src="src/sal_box.png" alt="" class="overflow-visible ">
+</div>
+
+<div class="lg:-mt-14">
+    <h2 class="font-bold text-2xl lg:text-3xl py-5">Beli Santai Aja Lagi Sekarang.</h2>
+    <a href="#" class="py-3 px-5 font-semibold bg-green-700 shadow-lg text-white rounded-md hover:bg-green-800 transition duration-300">Sudah ayo beli aja</a>
+
+     <p class="mt-10 font-semibold text-lg">Punya ide kartu?</p>   
+     <p class="mt-2 max-w-md">Email ide-idemu ke <span class="font-bold underline text-green-700">santaiajalagi@mail.com.</span>
+        Siapa tahu nanti kartumu masuk di expansion pack berikutnya!</p>
+</div>
+</section>
+
+<footer>
+    <div class="bg-green-700 items-center justify-start text-center py-2">
+        <p class="text-white font-body">Copyright 2022 | Santai Aja Lagi Game</p>
+    </div>
+</footer>
+
+<script>
+    function Menu(e){
+      let list = document.querySelector('ul');
+      e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
+    }
+  </script>
+
+</body>
+</html>
+
+<!--  <section id="hero" class="py-10 min-h-screen flex items-center justify-center bg-gray-700">
+            <h1 class="text-transparent bg-gradient-to-r bg-clip-text from-blue-500 to-green-600 text-9xl font-bold mx-auto max-w-6xl border-solid border-2 border-green-50">halo</h1>
+    </section> -->
