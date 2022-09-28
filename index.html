@@ -9,7 +9,8 @@
     <title>Santai Aja Lagi - Test Web</title>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>document.documentElement.classList.add('js')</script>
 </head>
 
 <body class="font-body">
@@ -34,7 +35,7 @@
             <a href="#caramain" class="text-xl hover:text-green-700 duration-500">Cara Main</a>
           </li>
     
-          <button class="bg-green-700 text-white duration-500 px-6 py-2 mx-4 hover:bg-green-800 rounded-full ">
+          <button class="bg-green-700 text-white duration-500 px-6 py-2 mx-4 hover:bg-green-800 rounded-full delay-[300ms] taos:translate-y-[50px] taos:opacity-0" data-taos-offset="50">
             Beli Game
           </button>
     <!-- <h2 class=""></h2> -->
@@ -47,22 +48,25 @@
     <section id="hero" class="py-10 lg:py-40 min-h-min flex items-center justify-center bg-gray-200">
         <div class="grid max-w-screen-lg px-2 py-8 mx-auto lg:gap-10 md:pt-16 pb-8 md:grid-cols-12">
             <div class="mx-auto place-self-center md:col-span-7">
-                <p class="max-w-2xl text-gray-700 font-semibold md:text-lg">Bukan buat orang baperan.</p>
-                <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl ">Santai Aja Lagi</h1>
-                <p class="max-w-2xl mb-3 text-gray-700 lg:mb-2 md:text-lg">Party game nomor 1 di Indonesia*.
+                <p class="max-w-2xl text-gray-700 font-semibold md:text-lg delay-[100ms] duration-[500ms] taos:translate-y-[100px] taos:opacity-0" data-taos-offset="300">Bukan buat orang baperan.</p>
+                <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl delay-[500ms] duration-[1000ms] taos:translate-y-[100px] taos:opacity-50">Santai Aja Lagi</h1>
+                <p class="max-w-2xl mb-3 text-gray-700 lg:mb-2 md:text-lg delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0" data-taos-offset="50">Party game nomor 1 di Indonesia*.
                     <br>
                     Tidak aman dimainin bareng mantan.</p>
                 
-                <p class="max-w-2xl mb-2 text-gray-700 lg:mb-8 text-xs">
+                <p class="max-w-2xl mb-2 text-gray-700 lg:mb-8 text-xs delay-[600ms] duration-[300ms] taos:translate-y-[400px] taos:opacity-0" data-taos-offset="100">
                     *Data menurut kita sendiri.
                 </p>
+                
                 
                 <a href="#" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-green-700 rounded-lg hover:bg-green-800 transition duration-300 ease-in-out lg:text-xl max-w-2xl">
                     Beli Sekarang
                 </a> 
+            
+                
             </div>
       
-            <div class="mt-5 mr-auto place-self-center md:col-span-4 2xl: col-span-4 flex md:mt-0 md:ml-7">
+            <div class="mt-5 mr-auto place-self-center md:col-span-4 2xl: col-span-4 flex md:mt-0 md:ml-7 delay-[300ms] duration-[600ms] taos:translate-x-[100px] taos:opacity-0" data-taos-offset="100">
                 <img src="./src/logo.png" class="lg:scale-150">
             </div>
         </div>        
@@ -72,7 +76,7 @@
     <!-- TENTANG KAMI START -->
     <section id="about" class="bg-green-700 justify-center items-center px-20 py-20">
         
-            <div class="mx-auto max-w-screen-xl text-justify">
+            <div class="mx-auto max-w-screen-xl text-justify delay-[300ms] duration-[600ms] taos:translate-y-[100px] taos:opacity-0" data-taos-offset="100">
                 <p class="text-white text-lg lg:text-2xl">
                 <b>Apa itu Santai Aja Lagi?</b>                
                 Cards Against Humanity versi warga +62? Game kartu buat yang suka berantem? Bahan baru buat yang suka konten problematik? Bisa jadi.
@@ -93,7 +97,7 @@
             <h1 class="text-3xl font-bold lg:text-4xl"> Cara Main</h1>
             <div class="items-center border-2 border-green-700 border-solid rounded-lg shadow sm:flex">
                 
-                <div class="p-5 text-justify">
+                <div class="p-5 text-justify delay-[100ms] duration-[300ms] taos:translate-y-[100px] taos:opacity-0" data-taos-offset="50">
                     <h3 class="text-xl font-bold tracking-tight text-gray-900 lg:text-3xl">
                        Langkah 1
                     </h3>
@@ -101,38 +105,37 @@
                    
                 </div>
 
-                <img class="w-full md:w-1/3 p-3 mx-auto rounded-lg sm:rounded-none sm:rounded-l-lg" src="src/caramain1.png" alt="CaraMainSAL1">
+                <img class="w-full md:w-1/3 p-3 mx-auto rounded-lg sm:rounded-none sm:rounded-l-lg delay-[100ms] duration-[400ms] taos:scale-[0.6] taos:opacity-0" data-taos-offset="100" src="src/caramain1.png" alt="CaraMainSAL1">
             </div> 
 
             <div class="items-center border-2 border-green-700 border-solid rounded-lg shadow sm:flex">
                 
-                <div class="p-5 text-justify">
+                <div class="p-5 text-justify delay-[100ms] duration-[400ms] taos:translate-y-[100px] taos:opacity-0" data-taos-offset="100">
                     <h3 class="text-xl font-bold tracking-tight text-gray-900 lg:text-3xl">
                        Langkah 2
                     </h3>
                     <p class="mt-3 mb-4 text-gray-700 lg:text-lg">Semua pemain lainnya memilih kartu putih terlucu untuk mengisi kartu hijau dan mengumpulkan ke bandar.</p>
                 </div>
 
-                <img class="w-full md:w-1/3 mx-auto p-3 rounded-lg sm:rounded-none sm:rounded-l-lg" src="src/caramain2.png" alt="CaraMainSAL2">
+                <img class="w-full md:w-1/3 mx-auto p-3 rounded-lg sm:rounded-none sm:rounded-l-lg delay-[100ms] duration-[400ms] taos:scale-[0.6] taos:opacity-0" data-taos-offset="50" src="src/caramain2.png" alt="CaraMainSAL2">
             </div> 
 
             <div class="items-center border-2 border-green-700 border-solid rounded-lg shadow sm:flex">
                 
-                <div class="p-5 text-justify">
+                <div class="p-5 text-justify delay-[100ms] duration-[300ms] taos:translate-y-[100px] taos:opacity-0" data-taos-offset="50">
                     <h3 class="text-xl font-bold tracking-tight text-gray-900 lg:text-3xl">
                        Langkah 3
                     </h3>
                     <p class="mt-3 mb-4 text-gray-700 lg:text-lg">Bandar memilih kartu yang paling lucu atau paling garing, boleh tertawa atau tidak, banyak versi mainnya tauk ah capek jelasin panjang lebar di sini baca sendiri aja di rulebooknya nanti kalau sudah dapat kotak gamenya.</p>
                 </div>
 
-                <img class="w-full md:w-1/3 mx-auto p-3 rounded-lg sm:rounded-none sm:rounded-l-lg" src="src/caramain3.png" alt="CaraMainSAL3">
+                <img class="w-full md:w-1/3 mx-auto p-3 rounded-lg sm:rounded-none sm:rounded-l-lg delay-[100ms] duration-[400ms] taos:scale-[0.6] taos:opacity-0" data-taos-offset="100" src="src/caramain3.png" alt="CaraMainSAL3">
             </div> 
-            <span class="mx-auto max-w-sm items-center justify-center
-            text-center">
+            <span class="mx-auto max-w-sm items-center justify-center text-center delay-[100ms] duration-[300ms] ease-in-out taos:opacity-0" data-taos-offset="300">
                 <h2 class="text-xl font-medium lg:text-2xl">Ketawa jangan sendiri dong.</h2>
                 <h2>Jangan lupa tag kita di permainan kalian.</h2>
 
-                <div class="flex mt-5 space-x-4 justify-center items-center">
+                <div class="flex mt-5 space-x-4 justify-center items-center delay-[100ms] duration-[300ms] taos:[transform:translate3d(0,100px,0)_scale(0.6)] taos:opacity-0" data-taos-offset="100">
                     <span>
                         <!-- FACEBOOK -->
                         <a href="#" class="text-green-700 hover:text-green-800">
@@ -162,11 +165,11 @@
 <!-- CTA START -->
 <section id="CTA" class="min-h-min px-4 py-10 mx-auto bg-gray-200 items-center justify-center md:flex">
 
-<div class="pr-5">
+<div class="pr-5 delay-[200ms] duration-[600ms] taos:translate-y-[50px] taos:opacity-0" data-taos-offset="300">
 <img src="src/sal_box.png" alt="" class="overflow-visible ">
 </div>
 
-<div class="lg:-mt-14">
+<div class="lg:-mt-14 delay-[300ms] duration-[600ms] taos:translate-y-[50px] taos:opacity-0" data-taos-offset="100">
     <h2 class="font-bold text-2xl lg:text-3xl py-5">Beli Santai Aja Lagi Sekarang.</h2>
     <a href="#" class="py-3 px-5 font-semibold bg-green-700 shadow-lg text-white rounded-md hover:bg-green-800 transition duration-300">Sudah ayo beli aja</a>
 
@@ -188,7 +191,7 @@
       e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
     }
   </script>
-
+<script src="https://unpkg.com/taos@1.0.2/dist/taos.js"></script>
 </body>
 </html>
 
