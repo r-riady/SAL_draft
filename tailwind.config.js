@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./*.{html,js}"],
+  
   theme: {
     screens: {
       'sm': '640px',      
@@ -15,5 +16,17 @@ module.exports = {
       }
     },    
   },
-  plugins: [],
+  plugins: [
+    require('taos/plugin')
+  ],
+  safelist: [
+    '!duration-0',
+    '!delay-0',
+    'html.js :where([class*="taos:"]:not(.taos-init))'
+  ],
+}
+module.exports = {
+  content: {
+    transform: (content) => content.replace(/taos:/g, ''),
+  },
 }
